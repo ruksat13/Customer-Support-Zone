@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #1a1a2e;
+}
+
+.main-section {
+  display: flex;
+  gap: 24px;
+  padding: 40px 80px;
+  width: 100%;
+}
+
+.tickets-container {
+  flex: 2;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.task-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 1024px) {
+  .main-section {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .tickets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .task-container {
+    min-width: unset;
+  }
+}
