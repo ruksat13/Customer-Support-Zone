@@ -89,24 +89,7 @@ const tickets = [
         status: "Open",
         createdAt: "2/08/2024"
     },
-    {
-        id: "#1011",
-        title: "Discount Code Not Working",
-        description: "Customer is trying to apply a discount code at checkout but gets an invalid code error.",
-        customer: "Noah White",
-        priority: "LOW PRIORITY",
-        status: "Open",
-        createdAt: "2/10/2024"
-    },
-    {
-        id: "#1012",
-        title: "Account Suspended Without Notice",
-        description: "Customer's account was suspended without any prior warning or email notification.",
-        customer: "Ava Harris",
-        priority: "HIGH PRIORITY",
-        status: "Open",
-        createdAt: "2/12/2024"
-    }
+
 ];
 
 export default tickets;
