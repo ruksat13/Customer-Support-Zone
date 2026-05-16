@@ -18,22 +18,19 @@ const TicketCard = ({ ticket, onAddToTask }) => {
             <div className="ticket-header">
                 <h3 className="ticket-title">{ticket.title}</h3>
                 <span className={`ticket-status ${getStatusClass(ticket.status)}`}>
-                    {ticket.status}
+                    ● {ticket.status}
                 </span>
             </div>
 
             <p className="ticket-description">{ticket.description}</p>
 
-            <div className="ticket-footer">
-                <div className="ticket-meta">
-                    <span className={`ticket-priority ${getPriorityClass(ticket.priority)}`}>
-                        {ticket.id} {ticket.priority}
-                    </span>
-                </div>
-                <div className="ticket-info">
-                    <span className="ticket-customer">👤 {ticket.customer}</span>
-                    <span className="ticket-date">📅 {ticket.createdAt}</span>
-                </div>
+            <div className="ticket-bottom">
+                <span className="ticket-id">{ticket.id}</span>
+                <span className={`ticket-priority ${getPriorityClass(ticket.priority)}`}>
+                    {ticket.priority}
+                </span>
+                <span className="ticket-customer">👤 {ticket.customer}</span>
+                <span className="ticket-date">📅 {ticket.createdAt}</span>
             </div>
         </div>
     );
