@@ -4,7 +4,7 @@ A React-based Customer Support ticket management system.
 <!-- live link -->
 ## 🌐 Live Link
 https://keen-queijadas-498139.netlify.app
-[Customer Support Zone](#)
+
 
 ## Features
 - View customer tickets
