@@ -40,10 +40,18 @@ const Footer = () => {
 
                     <div className="footer-col">
                         <h4>Social Links</h4>
-                        <a href="#">🌐 CS — Ticket System</a>
-                        <a href="#">📘 CS — Ticket System</a>
-                        <a href="#">🐦 @CS — Ticket System</a>
-                        <a href="#">✉️ support@cs.com</a>
+                        <a href="#">
+                            <img src="https://img.icons8.com/ios-filled/20/ffffff/twitterx.png" alt="X" /> @CS — Ticket System
+                        </a>
+                        <a href="#">
+                            <img src="https://img.icons8.com/ios-filled/20/ffffff/linkedin.png" alt="LinkedIn" /> @CS — Ticket System
+                        </a>
+                        <a href="#">
+                            <img src="https://img.icons8.com/ios-filled/20/ffffff/facebook.png" alt="Facebook" /> @CS — Ticket System
+                        </a>
+                        <a href="#">
+                            <img src="https://img.icons8.com/ios-filled/20/ffffff/mail.png" alt="Email" /> support@cst.com
+                        </a>
                     </div>
                 </div>
             </div>

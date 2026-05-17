@@ -98,3 +98,11 @@
     min-width: 40%;
   }
 }
+
+.footer-col a img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 6px;
+}
