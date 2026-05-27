@@ -3,7 +3,13 @@
 A React-based Customer Support ticket management system.
 <!-- live link -->
 ## 🌐 Live Link
-https://keen-queijadas-498139.netlify.app
+🔗 Live Links
+👉 [🌿 Click Here — New Live Site](https://b12a7-customer-support-zone-program.netlify.app/)
+
+🔴 Previous link not working — here's why: The original Netlify link below has been automatically paused because the free plan's monthly credit limit was exceeded. Sorry for the inconvenience!
+
+❌ ~~https://keen-queijadas-498139.netlify.app/~~ (paused)
+
 
 
 ## Features
